@@ -6,6 +6,11 @@
   "author": "Siddharth Vadgama <me@siddv.net>",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "axios": "^0.18.0",
+    "discord.js": "^11.3.2",
+    "dotenv": "^6.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
