@@ -12,8 +12,8 @@ client.on('ready', () => {
 
 client.on('message', msg => {
 
-  if (msg.content.substring(0,3) === '!s ') {
-    const messageText = msg.content.substring(3, msg.content.length)
+  if (msg.content.substring(0,2) === '!s') {
+    const messageText = msg.content.substring(2, msg.content.length)
 
     if(typeof responses[messageText] == 'function') {
 
