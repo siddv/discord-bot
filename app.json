@@ -1,0 +1,11 @@
+{
+  "name": "DiscordBot (Siddbot)",
+  "description": "Playing around with the Discord API",
+  "website": "https://siddv.net",
+  "repository": "https://github.com/siddv/discord-bot.git",
+  "env": {
+    "DISCORD_TOKEN": {
+      "description": "Your Discord Token"
+    }
+  }
+}
